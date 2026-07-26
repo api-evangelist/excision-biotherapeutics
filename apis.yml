@@ -1,8 +1,28 @@
 aid: excision-biotherapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/excision-biotherapeutics.png
 name: Excision BioTherapeutics
-description: Excision BioTherapeutics is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Excision BioTherapeutics is a clinical-stage biotechnology company developing
+  CRISPR-based gene-editing therapies intended to functionally cure serious
+  viral infectious diseases. Its programs use multiplexed CRISPR/Cas approaches
+  delivered via adeno-associated virus (AAV) to excise latent viral DNA from
+  infected cells, with a lead candidate (EBT-101) targeting HIV and additional
+  research directed at herpesviruses and hepatitis B. The company was surfaced
+  as a portfolio company of Battery Ventures and added to the API Evangelist
+  network. As a therapeutics company it does not currently publish a public
+  developer API, SDK, or documentation surface; this profile therefore carries
+  company identity and domain-security posture rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/excision-biotherapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Gene Editing
+- CRISPR
+- Therapeutics
+- Infectious Disease
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/excision-biotherapeutics-domain-security.yml
+- type: Website
+  url: https://www.excision.bio
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
