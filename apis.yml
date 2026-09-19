@@ -23,17 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/excision-biotherapeutics.png
 name: Excision BioTherapeutics
-description: >-
-  Excision BioTherapeutics is a clinical-stage biotechnology company developing
-  CRISPR-based gene-editing therapies intended to functionally cure serious
-  viral infectious diseases. Its programs use multiplexed CRISPR/Cas approaches
-  delivered via adeno-associated virus (AAV) to excise latent viral DNA from
-  infected cells, with a lead candidate (EBT-101) targeting HIV and additional
-  research directed at herpesviruses and hepatitis B. The company was surfaced
-  as a portfolio company of Battery Ventures and added to the API Evangelist
-  network. As a therapeutics company it does not currently publish a public
-  developer API, SDK, or documentation surface; this profile therefore carries
-  company identity and domain-security posture rather than API artifacts.
+description: Excision BioTherapeutics is a clinical-stage biotechnology company developing CRISPR-based gene-editing
+  therapies intended to functionally cure serious viral infectious diseases. Its programs use multiplexed CRISPR/Cas
+  approaches delivered via adeno-associated virus (AAV) to excise latent viral DNA from infected cells, with a lead
+  candidate (EBT-101) targeting HIV and additional research directed at herpesviruses and hepatitis B. The company
+  was surfaced as a portfolio company of Battery Ventures and added to the API Evangelist network. As a therapeutics
+  company it does not currently publish a public developer API, SDK, or documentation surface; this profile therefore
+  carries company identity and domain-security posture rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/excision-biotherapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -58,6 +54,8 @@ common:
   url: security/excision-biotherapeutics-domain-security.yml
 - type: Website
   url: https://www.excision.bio
+- type: Website
+  url: https://excision.bio
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
